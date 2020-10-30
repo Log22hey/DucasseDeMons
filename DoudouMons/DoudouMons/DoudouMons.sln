@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoudouMons", "DoudouMons\Do
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoudouMons.Core", "DoudouMons.Core\DoudouMons.Core.csproj", "{294D6E83-8A00-4DEF-B78E-E344A1979AAB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoudouMons.Infrastructure", "DoudouMons.Infrastructure\DoudouMons.Infrastructure.csproj", "{8BB25067-7456-4A8A-A268-7E2D1BF8882D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{294D6E83-8A00-4DEF-B78E-E344A1979AAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{294D6E83-8A00-4DEF-B78E-E344A1979AAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{294D6E83-8A00-4DEF-B78E-E344A1979AAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BB25067-7456-4A8A-A268-7E2D1BF8882D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BB25067-7456-4A8A-A268-7E2D1BF8882D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BB25067-7456-4A8A-A268-7E2D1BF8882D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BB25067-7456-4A8A-A268-7E2D1BF8882D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
