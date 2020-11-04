@@ -8,13 +8,10 @@ namespace DoudouMons.Core
 {
     public class Character
     {
-        public int ID { get; set; }
+        public int IdCharacter { get; set; }
         public string Name { get; set; }
-        public string ExplicationRole { get; set; }
-        public int IdArme { get; set; }
-        public string DateApparition { get; set; }
-
-
-      
+        public String costume{ get; set; }
+        public String ExplicationRole { get; set; }
+        public String NomArmes { get; set; }
     }
 }

@@ -6,6 +6,8 @@ namespace DoudouMons.DAL
 {
     public class DoudouContext : DbContext
     {
+        internal object Character;
+
         public DoudouContext() : base("DoudouContext")
         {
         }
@@ -13,6 +15,7 @@ namespace DoudouMons.DAL
         public DbSet<Character> Students { get; set; }
         public DbSet<Weapon> Enrollments { get; set; }
         public DbSet<Role> Courses { get; set; }
+        public object Characters { get; internal set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
