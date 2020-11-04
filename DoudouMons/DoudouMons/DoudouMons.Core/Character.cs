@@ -13,5 +13,8 @@ namespace DoudouMons.Core
         public string ExplicationRole { get; set; }
         public int IdArme { get; set; }
         public string DateApparition { get; set; }
-     }
+
+
+      
+    }
 }
