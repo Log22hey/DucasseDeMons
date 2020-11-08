@@ -1,2 +1,6 @@
 C:\Users\super\OneDrive - HEPH-Condorcet 2\progra avancée\DoudouMons\DoudouMons\DoudouMons.Core\obj\Debug\DoudouMons.Core.csprojAssemblyReference.cache
 C:\Users\super\OneDrive - HEPH-Condorcet 2\progra avancée\DoudouMons\DoudouMons\DoudouMons.Core\obj\Debug\DoudouMons.Core.csproj.CoreCompileInputs.cache
+C:\Users\super\OneDrive - HEPH-Condorcet 2\progra avancée\DoudouMons\DoudouMons\DoudouMons.Core\bin\Debug\DoudouMons.Core.dll
+C:\Users\super\OneDrive - HEPH-Condorcet 2\progra avancée\DoudouMons\DoudouMons\DoudouMons.Core\bin\Debug\DoudouMons.Core.pdb
+C:\Users\super\OneDrive - HEPH-Condorcet 2\progra avancée\DoudouMons\DoudouMons\DoudouMons.Core\obj\Debug\DoudouMons.Core.dll
+C:\Users\super\OneDrive - HEPH-Condorcet 2\progra avancée\DoudouMons\DoudouMons\DoudouMons.Core\obj\Debug\DoudouMons.Core.pdb

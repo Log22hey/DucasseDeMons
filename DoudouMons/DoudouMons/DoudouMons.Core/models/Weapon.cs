@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DoudouMons.Core
 {
-    class Weapon
+    public class Weapon
     {
         public int IdArme { get; set; }
         public string NomArme { get; set; }

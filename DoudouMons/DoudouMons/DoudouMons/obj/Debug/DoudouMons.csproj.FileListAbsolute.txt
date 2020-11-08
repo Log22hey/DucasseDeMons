@@ -84,3 +84,9 @@ C:\Users\super\OneDrive - HEPH-Condorcet 2\progra avancée\DoudouMons\DoudouMons
 C:\Users\super\OneDrive - HEPH-Condorcet 2\progra avancée\DoudouMons\DoudouMons\DoudouMons\obj\Debug\DoudouMons.csproj.CopyComplete
 C:\Users\super\OneDrive - HEPH-Condorcet 2\progra avancée\DoudouMons\DoudouMons\DoudouMons\obj\Debug\DoudouMons.dll
 C:\Users\super\OneDrive - HEPH-Condorcet 2\progra avancée\DoudouMons\DoudouMons\DoudouMons\obj\Debug\DoudouMons.pdb
+C:\Users\super\OneDrive - HEPH-Condorcet 2\progra avancée\DoudouMons\DoudouMons\DoudouMons\bin\DoudouMons.Core.dll
+C:\Users\super\OneDrive - HEPH-Condorcet 2\progra avancée\DoudouMons\DoudouMons\DoudouMons\bin\EntityFramework.dll
+C:\Users\super\OneDrive - HEPH-Condorcet 2\progra avancée\DoudouMons\DoudouMons\DoudouMons\bin\EntityFramework.SqlServer.dll
+C:\Users\super\OneDrive - HEPH-Condorcet 2\progra avancée\DoudouMons\DoudouMons\DoudouMons\bin\DoudouMons.Core.pdb
+C:\Users\super\OneDrive - HEPH-Condorcet 2\progra avancée\DoudouMons\DoudouMons\DoudouMons\bin\EntityFramework.xml
+C:\Users\super\OneDrive - HEPH-Condorcet 2\progra avancée\DoudouMons\DoudouMons\DoudouMons\bin\EntityFramework.SqlServer.xml

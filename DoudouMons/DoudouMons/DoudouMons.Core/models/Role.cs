@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DoudouMons.Core
 {
-    class Role
+    public class Role
     {
         public int IdRole { get; set; }
         public string ExlicationRole { get; set; }
