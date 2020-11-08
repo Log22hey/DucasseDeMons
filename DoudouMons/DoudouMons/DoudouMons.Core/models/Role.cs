@@ -11,6 +11,6 @@ namespace DoudouMons.Core
         public int IdRole { get; set; }
         public string ExlicationRole { get; set; }
 
-        public virtual Character Character { get; set; }
+        public virtual ICollection<Character> Characters { get; set; }
     }
 }

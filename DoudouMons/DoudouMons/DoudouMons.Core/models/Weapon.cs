@@ -11,6 +11,6 @@ namespace DoudouMons.Core
         public int IdArme { get; set; }
         public string NomArme { get; set; }
 
-        public virtual Character Character { get; set; }
+        public virtual ICollection<Character> Characters { get; set; }
     }
 }
