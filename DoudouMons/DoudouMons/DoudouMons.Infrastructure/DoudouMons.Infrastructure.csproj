@@ -42,7 +42,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="DAL\DoudouContext.cs" />
+    <Compile Include="DAL\DoudouInitializer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DoudouMons.Core\DoudouMons.Core.csproj">
+      <Project>{294D6E83-8A00-4DEF-B78E-E344A1979AAB}</Project>
+      <Name>DoudouMons.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

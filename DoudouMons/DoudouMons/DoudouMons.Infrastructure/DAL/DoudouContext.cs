@@ -12,9 +12,9 @@ namespace DoudouMons.DAL
         {
         }
 
-        public DbSet<Character> Students { get; set; }
-        public DbSet<Weapon> Enrollments { get; set; }
-        public DbSet<Role> Courses { get; set; }
+        public DbSet<Character> Characters { get; set; }
+        public DbSet<Weapon> Weapons { get; set; }
+        public DbSet<Role> Roles { get; set; }
         public object Characters { get; internal set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
