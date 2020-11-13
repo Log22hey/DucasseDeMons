@@ -20,5 +20,7 @@ namespace DoudouMons.Data
         }
 
         public System.Data.Entity.DbSet<DoudouMons.Core.Character> Characters { get; set; }
+
+        public System.Data.Entity.DbSet<DoudouMons.Core.Role> Roles { get; set; }
     }
 }
