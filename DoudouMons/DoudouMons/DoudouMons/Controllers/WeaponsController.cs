@@ -18,7 +18,7 @@ namespace DoudouMons.Controllers
         // GET: Weapons
         public ActionResult Index()
         {
-            return View(db.Weapons.ToList());
+            return View(model: db.Weapons.ToList());
         }
 
         // GET: Weapons/Details/5
