@@ -1,0 +1,14 @@
+C:\Users\super\OneDrive - HEPH-Condorcet 2\progra avancée\DoudouMons\DoudouMons\DoudouMons.Infrastructure\bin\Debug\DoudouMons.Infrastructure.dll.config
+C:\Users\super\OneDrive - HEPH-Condorcet 2\progra avancée\DoudouMons\DoudouMons\DoudouMons.Infrastructure\bin\Debug\DoudouMons.Infrastructure.dll
+C:\Users\super\OneDrive - HEPH-Condorcet 2\progra avancée\DoudouMons\DoudouMons\DoudouMons.Infrastructure\bin\Debug\DoudouMons.Infrastructure.pdb
+C:\Users\super\OneDrive - HEPH-Condorcet 2\progra avancée\DoudouMons\DoudouMons\DoudouMons.Infrastructure\bin\Debug\DoudouMons.Core.dll
+C:\Users\super\OneDrive - HEPH-Condorcet 2\progra avancée\DoudouMons\DoudouMons\DoudouMons.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Users\super\OneDrive - HEPH-Condorcet 2\progra avancée\DoudouMons\DoudouMons\DoudouMons.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\super\OneDrive - HEPH-Condorcet 2\progra avancée\DoudouMons\DoudouMons\DoudouMons.Infrastructure\bin\Debug\DoudouMons.Core.pdb
+C:\Users\super\OneDrive - HEPH-Condorcet 2\progra avancée\DoudouMons\DoudouMons\DoudouMons.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Users\super\OneDrive - HEPH-Condorcet 2\progra avancée\DoudouMons\DoudouMons\DoudouMons.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\super\OneDrive - HEPH-Condorcet 2\progra avancée\DoudouMons\DoudouMons\DoudouMons.Infrastructure\obj\Debug\DoudouMons.Infrastructure.csprojAssemblyReference.cache
+C:\Users\super\OneDrive - HEPH-Condorcet 2\progra avancée\DoudouMons\DoudouMons\DoudouMons.Infrastructure\obj\Debug\DoudouMons.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\super\OneDrive - HEPH-Condorcet 2\progra avancée\DoudouMons\DoudouMons\DoudouMons.Infrastructure\obj\Debug\DoudouMons.Infrastructure.csproj.CopyComplete
+C:\Users\super\OneDrive - HEPH-Condorcet 2\progra avancée\DoudouMons\DoudouMons\DoudouMons.Infrastructure\obj\Debug\DoudouMons.Infrastructure.dll
+C:\Users\super\OneDrive - HEPH-Condorcet 2\progra avancée\DoudouMons\DoudouMons\DoudouMons.Infrastructure\obj\Debug\DoudouMons.Infrastructure.pdb

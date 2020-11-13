@@ -1,0 +1,56 @@
+﻿@model DoudouMons.Core.Character
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Character</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.costume)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.costume)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ExplicationRole)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ExplicationRole)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NomArmes)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NomArmes)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>
