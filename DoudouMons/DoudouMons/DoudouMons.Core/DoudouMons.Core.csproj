@@ -44,8 +44,6 @@
   <ItemGroup>
     <Compile Include="models\Character.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="models\Role.cs" />
-    <Compile Include="models\Weapon.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\.editorconfig">

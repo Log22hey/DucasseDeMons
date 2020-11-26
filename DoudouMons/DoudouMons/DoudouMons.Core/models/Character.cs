@@ -15,8 +15,5 @@ namespace DoudouMons.Core
         public String costume{ get; set; }
         public String ExplicationRole { get; set; }
         public String NomArmes { get; set; }
-
-        public virtual Weapon Weapon { get; set; }
-        public virtual Role Role { get; set; }
     }
 }
