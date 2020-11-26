@@ -13,7 +13,7 @@ namespace DoudouMons.Controllers
 {
     public class CharacterController : Controller
     {
-        private DoudouMonsContext db = new DoudouMonsContext();
+        private DoudouContext db = new DoudouContext();
 
         // GET: Character
         public ActionResult Index()
