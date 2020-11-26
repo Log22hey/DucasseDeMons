@@ -1,4 +1,5 @@
 ﻿using DoudouMons.Core;
+using DoudouMons.Core.models;
 using System.Collections.Generic;
 
 
@@ -23,31 +24,33 @@ namespace DoudouMons.DAL
             characters.ForEach(c => context.Characters.Add(c));
             context.SaveChanges();
 
-            var weapons = new List<Weapon>
+
+            var customers = new List<Customer>
             {
-            new Weapon{IdArme=1,NomArme="lance"},
-            new Weapon{IdArme=2,NomArme="sabre"},
-            new Weapon{IdArme=3,NomArme="pistolet"},
-            new Weapon{IdArme=4,NomArme="vessie de porc"},
-            new Weapon{IdArme=5,NomArme="massue"}
+            new Customer{idCustomer=1, lastName="Martin", firstName="Nicolas", email="nico.martin@mons.be", password="mons", adresse="grand place", numero=22, cp=7000, ville="Mons"},
+            new Customer{idCustomer=2, lastName="Fontana", firstName="Ophelie", email="ophe.fontana@rtbf.be", password="rtbf", adresse="rue de l'info", numero=13, cp=1000, ville="Bruxelles"}
             };
 
-            weapons.ForEach(s => context.Weapons.Add(s));
+            customers.ForEach(c => context.Customers.Add(c));
             context.SaveChanges();
 
-            var roles = new List<Role>
+
+            var products = new List<Product>
             {
-            new Role{IdRole=1, ExlicationRole="Tuer le dragon qui represente le mal"},
-            new Role{IdRole=2, ExlicationRole="ce sont les alliés naturels de saint Georges. Ils sont au nombre de douze"},
-            new Role{IdRole=3, ExlicationRole="va chercher les lances pour saint Georges, à chaque fois que l'une est brisée"},
-            new Role{IdRole=4, ExlicationRole="Au nombre de 11, les Diables sont les alliés naturels du Dragon, mais représentant le Malin, ils ne le respectent même pas. En effet, l'étymologie du nom les pousse à toujours viser la séparation. Le nombre 11 n'est pas choisi un hasard car c'est 1+1 : la dualité."},
-            new Role{IdRole=5, ExlicationRole="Ils ont un rôle fondamental car leur précision est nécessaire pour que le combat réussisse tant les phases exécutées sont délicates : pommeau, entrée dans l'arène, coups de queue et faux coups de queue, etc."},
-            new Role{IdRole=6, ExlicationRole="lls soutiennent et gardent la queue du dragon. Ils sont au nombre de huit."},
-            new Role{IdRole=7, ExlicationRole="Elle ranime les Chinchins renversés en touchant la carcasse de chacun d'eux. Elle donne les lances au Chinchin protecteur qui les apporte à saint Georges. Elle donne à ce dernier la lance noire et blanche, en fin de combat, afin de marquer le retour à l'équilibre et la continuité du cycle vers l'an d'après."},
-            new Role{IdRole=8, ExlicationRole="Elle remet les pistolets à l'officier, qui à son tour les donne à saint Georges. Elle distribue les canines du Dragon au public."}
+            new Product{ idProduct=1, name="dragon en peluche", prix=8},
+            new Product{idProduct=2, name="Chinchin alcool montois", prix=25}
             };
 
-            roles.ForEach(s => context.Roles.Add(s));
+            products.ForEach(c => context.Products.Add(c));
+            context.SaveChanges();
+
+            var shoppings = new List<Shopping>
+            {
+            new Shopping{ idShopping=1, idCustomer=1, idProduct=1},
+            new Shopping{ idShopping=2, idCustomer=2, idProduct=1}
+            };
+
+            shoppings.ForEach(c => context.Shoppings.Add(c));
             context.SaveChanges();
         }
     }

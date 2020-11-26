@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DoudouMons.Core.models
 {
-    class Shopping
+    public class Shopping
     {
         [Key]
         public int idShopping { get; set; }
