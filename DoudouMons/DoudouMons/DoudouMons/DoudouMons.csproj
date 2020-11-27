@@ -131,7 +131,6 @@
     <Compile Include="Controllers\CustomersController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
-    <Compile Include="Data\DoudouMonsContext.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -191,6 +190,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
@@ -210,6 +210,10 @@
     <ProjectReference Include="..\DoudouMons.Core\DoudouMons.Core.csproj">
       <Project>{294D6E83-8A00-4DEF-B78E-E344A1979AAB}</Project>
       <Name>DoudouMons.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DoudouMons.Infrastructure\DoudouMons.Infrastructure.csproj">
+      <Project>{8BB25067-7456-4A8A-A268-7E2D1BF8882D}</Project>
+      <Name>DoudouMons.Infrastructure</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

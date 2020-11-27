@@ -90,3 +90,6 @@ C:\Users\super\OneDrive - HEPH-Condorcet 2\progra avancée\DoudouMons\DoudouMons
 C:\Users\super\OneDrive - HEPH-Condorcet 2\progra avancée\DoudouMons\DoudouMons\DoudouMons\bin\DoudouMons.Core.pdb
 C:\Users\super\OneDrive - HEPH-Condorcet 2\progra avancée\DoudouMons\DoudouMons\DoudouMons\bin\EntityFramework.xml
 C:\Users\super\OneDrive - HEPH-Condorcet 2\progra avancée\DoudouMons\DoudouMons\DoudouMons\bin\EntityFramework.SqlServer.xml
+C:\Users\super\OneDrive - HEPH-Condorcet 2\progra avancée\DoudouMons\DoudouMons\DoudouMons\bin\DoudouMons.Infrastructure.dll
+C:\Users\super\OneDrive - HEPH-Condorcet 2\progra avancée\DoudouMons\DoudouMons\DoudouMons\bin\DoudouMons.Infrastructure.pdb
+C:\Users\super\OneDrive - HEPH-Condorcet 2\progra avancée\DoudouMons\DoudouMons\DoudouMons\bin\DoudouMons.Infrastructure.dll.config

@@ -7,7 +7,7 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using DoudouMons.Core.models;
-using DoudouMons.Data;
+using DoudouMons.DAL;
 
 namespace DoudouMons.Controllers
 {
