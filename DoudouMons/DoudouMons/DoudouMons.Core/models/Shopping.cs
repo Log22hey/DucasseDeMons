@@ -13,5 +13,8 @@ namespace DoudouMons.Core.models
         public int idShopping { get; set; }
         public int idCustomer { get; set; }
         public int idProduct { get; set; }
+
+        public virtual Customer Customer { get; set; }
+        public virtual Product Product { get; set; }
     }
 }

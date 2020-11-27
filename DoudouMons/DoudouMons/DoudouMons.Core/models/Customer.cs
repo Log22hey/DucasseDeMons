@@ -19,5 +19,7 @@ namespace DoudouMons.Core.models
         public int numero { get; set; }
         public int cp { get; set; }
         public String ville { get; set; }
+
+        public virtual ICollection<Shopping> Shoppings { get; set; }
     }
 }
