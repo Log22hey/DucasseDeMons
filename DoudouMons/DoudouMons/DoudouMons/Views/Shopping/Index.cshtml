@@ -1,0 +1,39 @@
+﻿@model IEnumerable<DoudouMons.Core.models.Shopping>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Customer.lastName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Product.name)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Customer.lastName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Product.name)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.idShopping }) |
+            @Html.ActionLink("Details", "Details", new { id=item.idShopping }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.idShopping })
+        </td>
+    </tr>
+}
+
+</table>
