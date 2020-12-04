@@ -3,7 +3,7 @@ using DoudouMons.Core.models;
 using System.Collections.Generic;
 
 
-namespace DoudouMons.DAL
+namespace DoudouMons.Infrastructure.DAL
 {
     public class DoudouInitializer : System.Data.Entity.DropCreateDatabaseIfModelChanges<DoudouContext>
     {

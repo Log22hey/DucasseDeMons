@@ -6,7 +6,7 @@ using DoudouMons.Infrastructure;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
 
-namespace DoudouMons.DAL
+namespace DoudouMons.Infrastructure.DAL
 {
     public class DoudouContext : DbContext
     {
