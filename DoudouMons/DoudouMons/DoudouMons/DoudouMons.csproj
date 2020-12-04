@@ -146,8 +146,13 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="images\chasse.jpg" />
     <Content Include="images\doudou.jpg" />
+    <Content Include="images\feu.jpg" />
+    <Content Include="images\hotelville.jpg" />
     <Content Include="images\icon.jpg" />
+    <Content Include="images\invlacopou1an.png" />
+    <Content Include="images\lumeçon.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
