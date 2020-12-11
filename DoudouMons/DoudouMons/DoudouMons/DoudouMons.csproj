@@ -151,6 +151,8 @@
     <Content Include="images\feu.jpg" />
     <Content Include="images\icon.jpg" />
     <Content Include="images\invlacopou1an.png" />
+    <Content Include="images\jm.jpg" />
+    <Content Include="images\musée.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
