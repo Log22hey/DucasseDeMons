@@ -1,18 +1,17 @@
 ﻿@{
     ViewBag.Title = "Home Page";
-    <link rel="shorcut icon" href="~/images/icon.jpg" />
 }
 
 <div class="jumbotron">
-    <h1>Ducasse de Mons</h1>
+    <h1>Ducasse de Mons<img src="~/images/doudou.jpg" alt="Doudou Mons" /></h1>
+    
 </div>
 <div class="row">
+    
+    <div class="jumbotron">
+        <div id="compte_a_rebours"><noscript>Fin de l'évènement le 28 mai 2021.</noscript>
+    </div>
 
-    <div>
-        <div id="compte_a_rebours"><noscript>Fin de l'évènement le 28 mai 2021.</noscript></div>
- 
-            <th scope="col"><img src="~/images/doudou.jpg" alt="Doudou Mons" /></th>
-       
         <script type="text/javascript">
             function compte_a_rebours() {
                 var compte_a_rebours = document.getElementById("compte_a_rebours");
@@ -81,6 +80,8 @@
             }
             compte_a_rebours();</script>
     </div>
+    <br />
+    <br />
     <div class="col-md-4">
         <h2>Welcome to the world of Mons folkore</h2>
         <iframe width="1200" height="500" src="https://www.youtube.com/embed/eLFu1sr_-TQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
