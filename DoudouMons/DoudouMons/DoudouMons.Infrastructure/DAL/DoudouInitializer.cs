@@ -37,8 +37,8 @@ namespace DoudouMons.Infrastructure.DAL
 
             var products = new List<Product>
             {
-            new Product{ idProduct=1, name="dragon en peluche", prix=8},
-            new Product{idProduct=2, name="Chinchin alcool montois", prix=25}
+            new Product{ idProduct=1, name="peluche", Desc="dragon vert vêtu en saint george", prix=8},
+            new Product{idProduct=2, name="Elixir traditionnel Chinchin", Desc="Apéritif à base de vin, de citron et de sucre de canne, 14, 9%", prix=25}
             };
 
             products.ForEach(c => context.Products.Add(c));

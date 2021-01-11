@@ -12,6 +12,7 @@ namespace DoudouMons.Core.models
         [Key]
         public int idProduct { get; set; }
         public String name { get; set; }
+        public string Desc { get; set; }
         public float prix { get; set; }
 
         public virtual ICollection<Shopping> Shoppings { get; set; }
