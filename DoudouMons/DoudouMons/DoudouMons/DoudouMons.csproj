@@ -194,6 +194,12 @@
     <Content Include="Views\Shopping\Details.cshtml" />
     <Content Include="Views\Shopping\Edit.cshtml" />
     <Content Include="Views\Shopping\Index.cshtml" />
+    <Content Include="Views\Character\Create.cshtml" />
+    <Content Include="Views\Character\Delete.cshtml" />
+    <Content Include="Views\Character\Edit.cshtml" />
+    <Content Include="Views\Product\Create.cshtml" />
+    <Content Include="Views\Product\Delete.cshtml" />
+    <Content Include="Views\Product\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
