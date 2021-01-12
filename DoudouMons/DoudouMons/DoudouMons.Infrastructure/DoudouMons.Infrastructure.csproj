@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="DAL\DoudouContext.cs" />
     <Compile Include="DAL\DoudouInitializer.cs" />
+    <Compile Include="DAL\ProductRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

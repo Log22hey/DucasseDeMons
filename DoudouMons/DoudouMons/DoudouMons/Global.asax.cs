@@ -1,3 +1,4 @@
+using DoudouMons.Infrastructure.DAL;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +17,10 @@ namespace DoudouMons
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            UnityConfig.RegisterComponents();
+
+            DoudouInitializer db = new DoudouInitializer();
+            System.Data.Entity.Database.SetInitializer(db);
         }
     }
 }

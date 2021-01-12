@@ -6,6 +6,7 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using DoudouMons.Core.interfaces;
 using DoudouMons.Core.models;
 using DoudouMons.Infrastructure.DAL;
 
@@ -14,6 +15,11 @@ namespace DoudouMons.Controllers
     public class ProductController : Controller
     {
         private DoudouContext db = new DoudouContext();
+
+        public ProductController(IProductRepository db)
+        {
+            this.db = (DoudouContext)db;
+        }
 
         // GET: Product
         public ActionResult Index()
