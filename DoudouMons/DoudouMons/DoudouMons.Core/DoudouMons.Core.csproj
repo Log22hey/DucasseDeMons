@@ -45,10 +45,7 @@
     <Compile Include="models\Character.cs" />
     <Compile Include="models\Customer.cs" />
     <Compile Include="models\Product.cs" />
-    <Compile Include="models\ProductDetailDTO.cs" />
-    <Compile Include="models\ProductDTO.cs" />
     <Compile Include="models\Shopping.cs" />
-    <Compile Include="models\Stock.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
