@@ -16,11 +16,6 @@ namespace DoudouMons.Controllers
     {
         private DoudouContext db = new DoudouContext();
 
-        public ProductController(IProductRepository db)
-        {
-            this.db = (DoudouContext)db;
-        }
-
         // GET: Product
         public ActionResult Index()
         {

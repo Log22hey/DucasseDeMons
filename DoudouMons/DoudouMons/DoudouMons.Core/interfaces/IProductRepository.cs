@@ -9,6 +9,8 @@ namespace DoudouMons.Core.interfaces
 {
     public interface IProductRepository
     {
+        object Products { get; }
+
         void Add(Product p);
         void Edit(Product p);
         void Remove(int idProduct);

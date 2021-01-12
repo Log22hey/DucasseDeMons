@@ -12,5 +12,3 @@ C:\Users\super\OneDrive - HEPH-Condorcet 2\progra avancée\DoudouMons\DoudouMons
 C:\Users\super\OneDrive - HEPH-Condorcet 2\progra avancée\DoudouMons\DoudouMons\DoudouMons.Infrastructure\obj\Debug\DoudouMons.Infrastructure.csproj.CopyComplete
 C:\Users\super\OneDrive - HEPH-Condorcet 2\progra avancée\DoudouMons\DoudouMons\DoudouMons.Infrastructure\obj\Debug\DoudouMons.Infrastructure.dll
 C:\Users\super\OneDrive - HEPH-Condorcet 2\progra avancée\DoudouMons\DoudouMons\DoudouMons.Infrastructure\obj\Debug\DoudouMons.Infrastructure.pdb
-C:\Users\super\OneDrive - HEPH-Condorcet 2\progra avancée\DoudouMons\DoudouMons\DoudouMons.Infrastructure\obj\Debug\DoudouMons.Infrastructure.Migrations.InitialCreate.resources
-C:\Users\super\OneDrive - HEPH-Condorcet 2\progra avancée\DoudouMons\DoudouMons\DoudouMons.Infrastructure\obj\Debug\DoudouMons.Infrastructure.csproj.GenerateResource.cache
