@@ -11,6 +11,9 @@ namespace DoudouMons.Infrastructure.DAL
     public class ProductRepository : IProductRepository
     {
         DoudouContext context = new DoudouContext();
+
+        public object Products => throw new NotImplementedException();
+
         public void Add(Product p)
         {
             context.Products.Add(p);

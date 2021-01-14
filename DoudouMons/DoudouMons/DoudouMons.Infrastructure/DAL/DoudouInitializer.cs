@@ -37,7 +37,12 @@ namespace DoudouMons.Infrastructure.DAL
 
             var products = new List<Product>
             {
-            new Product{ idProduct=1, name="peluche", Desc="dragon vert vêtu en saint george", prix=8},
+            new Product{ idProduct=1, name="peluche", Desc="dragon vert vêtu en saint george", prix=12},
+            new Product{ idProduct=3, name="massue", Desc="massue de l'homme de feuille", prix=12 },
+            new Product{ idProduct=4, name="t-shirt", Desc="et les montois ne périront pas", prix=20 },
+            new Product{ idProduct=5, name="l'apéro du dragon", Desc="Apéritif au goût d'agrumes aromatisé à base de vin d'origine contrôlée avec macération d'épices, de fruits, d'aromates et d'eau de vie.", prix=20 },
+            new Product{ idProduct=6, name="Le Mojito du Dragon", Desc="Boisson fermentée alcoolisée à base de : infusion de menthe dans eau, sucre, jus de citron, piment rouge et vert.  Contient des sulfites.", prix=20 },
+            new Product{ idProduct=7, name="t-shirt", Desc="t-shirt officiel du DOUDOU 2019", prix=15 },
             new Product{idProduct=2, name="Elixir traditionnel Chinchin", Desc="Apéritif à base de vin, de citron et de sucre de canne, 14, 9%", prix=25}
             };
 
