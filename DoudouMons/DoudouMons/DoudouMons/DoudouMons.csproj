@@ -161,13 +161,24 @@
     <Content Include="Content\Site.css" />
     <Content Include="images\1.jpg" />
     <Content Include="images\chasse.jpg" />
-    <Content Include="images\doudou.jpg" />
+    <Content Include="images\chinchin.jpg" />
+    <Content Include="images\chinchinp.jpg" />
+    <Content Include="images\chinchinperso.jpg" />
+    <Content Include="images\collier.jpg" />
+    <Content Include="images\diables.jpg" />
+    <Content Include="images\dragon.jpg" />
+    <Content Include="images\etlesmontois.jpg" />
     <Content Include="images\feu.jpg" />
-    <Content Include="images\icon.jpg" />
+    <Content Include="images\hommeB.jpg" />
+    <Content Include="images\hommeDeF.jpg" />
     <Content Include="images\invlacopou1an.png" />
     <Content Include="images\jm.jpg" />
+    <Content Include="images\l-apéro-du-dragon-apéritif-mons-dragon.jpg" />
+    <Content Include="images\le-mojito-du-dragon-mons.jpg" />
+    <Content Include="images\massue.jpg" />
     <Content Include="images\musée.jpg" />
-    <Content Include="images\paroles.png" />
+    <Content Include="images\poliade.jpg" />
+    <Content Include="images\sg.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
@@ -202,8 +213,6 @@
     <Content Include="Views\Customer\Details.cshtml" />
     <Content Include="Views\Customer\Edit.cshtml" />
     <Content Include="Views\Customer\Index.cshtml" />
-    <Content Include="Views\Product\Details.cshtml" />
-    <Content Include="Views\Product\Index.cshtml" />
     <Content Include="Views\Shopping\Create.cshtml" />
     <Content Include="Views\Shopping\Delete.cshtml" />
     <Content Include="Views\Shopping\Details.cshtml" />
@@ -214,7 +223,9 @@
     <Content Include="Views\Character\Edit.cshtml" />
     <Content Include="Views\Product\Create.cshtml" />
     <Content Include="Views\Product\Delete.cshtml" />
+    <Content Include="Views\Product\Details.cshtml" />
     <Content Include="Views\Product\Edit.cshtml" />
+    <Content Include="Views\Product\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

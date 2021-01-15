@@ -6,7 +6,6 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
-using DoudouMons.Core.interfaces;
 using DoudouMons.Core.models;
 using DoudouMons.Infrastructure.DAL;
 
@@ -48,7 +47,7 @@ namespace DoudouMons.Controllers
         // plus de détails, consultez https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "idProduct,name,Desc,prix")] Product product)
+        public ActionResult Create([Bind(Include = "idProduct,name,Desc,Image,prix")] Product product)
         {
             if (ModelState.IsValid)
             {
@@ -80,7 +79,7 @@ namespace DoudouMons.Controllers
         // plus de détails, consultez https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "idProduct,name,Desc,prix")] Product product)
+        public ActionResult Edit([Bind(Include = "idProduct,name,Desc,Image,prix")] Product product)
         {
             if (ModelState.IsValid)
             {
